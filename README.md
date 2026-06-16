@@ -2,7 +2,9 @@
 
 > 一个 [Claude Code](https://claude.com/claude-code) **项目级 Skill**：把你的草稿提示词或一句话需求，优化成结构化、可直接复制使用的高质量提示词，供你粘贴到 ChatGPT、豆包、Claude 等各种 AI 里使用。
 
-![提示词精灵在 Claude Code 中被唤起](assets/prompt-genie-demo.png)
+
+<img width="3562" height="2318" alt="image" src="https://github.com/user-attachments/assets/70065411-2721-46e6-b6b8-803bcea54b9c" />
+
 
 ---
 
