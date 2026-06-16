@@ -92,8 +92,6 @@ cp -r /tmp/prompt-genie/.claude/skills/prompt-genie .claude/skills/
 - **质量验证**：用真实提示词做「带 skill vs 不带 skill」对比，针对差距补了黄金示例。
 - **触发优化**：用 20 条触发测试用例跑数据驱动的 description 优化，在零误触发的前提下提升触发率。
 
-设计文档与实现计划见 [`docs/`](docs/)。
-
 ---
 
 如果它帮到你，欢迎 ⭐ Star。
