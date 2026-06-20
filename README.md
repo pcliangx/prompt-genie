@@ -28,11 +28,17 @@
 ```bash
 # 在你的项目根目录
 mkdir -p .claude/skills
-# 方式一：克隆本仓库后复制
+# 方式一：克隆本仓库后复制到项目级
 git clone https://github.com/pcliangx/prompt-genie.git /tmp/prompt-genie
 cp -r /tmp/prompt-genie/.claude/skills/prompt-genie .claude/skills/
+```
 
-# 方式二：作为子目录 sparse checkout / 手动下载亦可
+**想全局可用（用户级）**，放到 `~/.claude/skills/` 即可，所有项目都能用：
+
+```bash
+mkdir -p ~/.claude/skills
+git clone https://github.com/pcliangx/prompt-genie.git /tmp/prompt-genie
+cp -r /tmp/prompt-genie/.claude/skills/prompt-genie ~/.claude/skills/
 ```
 
 放好后**新开一个 Claude Code 会话**（skill 在会话启动时被发现），就能用了。

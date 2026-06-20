@@ -39,8 +39,9 @@
 
 ## 系统提示词 / 角色设定
 目标：给一个 AI 应用、角色或智能体定一个稳定、可复用的人格与行为规范（区别于一次性的用户提示词）。
-骨架：直接用 LangGPT 角色模板（见 `frameworks.md`）——Role + Profile + Skills + Rules + Workflow + Initialization。
-要点：Rules 里写死"必须 / 禁止"（防出戏、防幻觉）；Workflow 给清交互步骤；强调"每次对话都保持该人格"。识别信号：用户说"给我的 bot / 智能体 / GPTs / 助手写个设定 / 人设 / system prompt"。
+骨架：直接用 LangGPT 角色模板（结构见 `frameworks.md`，不在此重复）。
+要点：Rules 里写死"必须 / 禁止"（防出戏、防幻觉）；Workflow 给清交互步骤；强调"每次对话都保持该人格"。
+识别信号：用户说"给我的 bot / 智能体 / GPTs / 助手写个设定 / 人设 / system prompt"。
 
 ## 扩展方式
 新增场景：在本文件加一个 `## 场景名` 小节，写清目标 + 骨架 + 要点，SKILL.md 无需改动。
